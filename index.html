@@ -14,12 +14,17 @@
 	<meta property="og:site_name" content="Tomocoin">
 	<meta property="og:description" content="Reimagining Social Network with Cryptocurrency. Subscribe to receive updates about the upcoming token sales">
   <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=PT+Serif" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=PT+Serif:400,700" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.7.1/slick/slick.css"/>
   <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.7.1/slick/slick-theme.css"/>
 
   <!--STYLES-->
-  <link rel="stylesheet" href="styles/production.min.css">
+  <link rel="stylesheet" href="styles/lib/animate.css">
+  <link rel="stylesheet" href="styles/lib/bootstrap.min.css">
+  <link rel="stylesheet" href="styles/lib/font-awesome.min.css">
+  <link rel="stylesheet" href="styles/lib/loading.css">
+  <link rel="stylesheet" href="styles/lib/slideshow.css">
+  <link rel="stylesheet" href="styles/importer.css">
   <!--STYLES END-->
 
   <!-- Hotjar Tracking Code for https://tomocoin.io -->
@@ -64,7 +69,7 @@
           <img src="img/t.png" class="logot"></img>
         </a>
       </div>
-      <div class="dropdown visible-xs" style="position: absolute; top: 10px; right: 70px;">
+      <div class="dropdown visible-xs" style="position: absolute; top: 5px; right: 70px;">
         <button class="language dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
           <img src="img/lang.svg" style="margin-right: 5px;"/> ENG
           <span class="caret"></span>
@@ -227,13 +232,13 @@
           </div>
           <div class="text-center text-right-desktop mt25">
             <a href="https://tomoapp.com" class="mr10">
-              <img src="img/webapp.png" height="40px" style="margin-bottom: 10px;"/>
+              <img src="img/webapp.png" style="margin-bottom: 10px; width: 28%;"/>
             </a>
             <a href="https://goo.gl/s3nvFs" class="mr10">
-              <img src="img/appstore.png" height="40px" style="margin-bottom: 10px;"/>
+              <img src="img/appstore.png" style="margin-bottom: 10px; width: 28%;"/>
             </a>
             <a href="https://goo.gl/imvNHp">
-              <img src="img/googleplay.png" height="40px" style="margin-bottom: 10px;"/>
+              <img src="img/googleplay.png" style="margin-bottom: 10px; width: 28%;"/>
             </a>
           </div>
         </div>
@@ -648,34 +653,34 @@
         Contact with us<span class="blue-color">.</span>
       </h1>
       <div class="row">
-        <div class="col-sm-2 text-center">
+        <div class="col-sm-2 col-xs-4 text-center">
           <a href="https://t.me/joinchat/G6zSmBMSgUnc5Z86Qmwsmw" target="_blank">
-            <img src="img/telegram-icon.png">
+            <img src="img/telegram-icon.png" class="mb20">
           </a>
         </div>
-        <div class="col-sm-2 text-center">
+        <div class="col-sm-2 col-xs-4 text-center">
           <a href="https://join.slack.com/t/tomocoin/shared_invite/enQtMjc4Mjk2ODk5MTg2LTg3NDk5ZjcxNTIxMWEwZDdkYTZhNjIwNWFmMDQxYjQ3NDQyM2MyZjBmNDAxY2FmNzAwYzc3NzEzODQ1ZDg1Y2I" target="_blank">
-            <img src="img/slack-icon.png">
+            <img src="img/slack-icon.png" class="mb20">
           </a>
         </div>
-        <div class="col-sm-2 text-center">
+        <div class="col-sm-2 col-xs-4 text-center">
           <a href="https://twitter.com/TomoCoin_io" target="_blank">
-            <img src="img/twitter-icon.png">
+            <img src="img/twitter-icon.png" class="mb20">
           </a>
         </div>
-        <div class="col-sm-2 text-center">
+        <div class="col-sm-2 col-xs-4 text-center">
           <a href="https://www.facebook.com/tomocoin" target="_blank">
-            <img src="img/facebook-icon.png">
+            <img src="img/facebook-icon.png" class="mb20">
           </a>
         </div>
-        <div class="col-sm-2 text-center">
+        <div class="col-sm-2 col-xs-4 text-center">
           <a href="https://medium.com/tomocoin" target="_blank">
-            <img src="img/medium-icon.png">
+            <img src="img/medium-icon.png" class="mb20">
           </a>
         </div>
-        <div class="col-sm-2 text-center">
+        <div class="col-sm-2 col-xs-4 text-center">
           <a href="https://bitcointalk.org/index.php?topic=2021785.0" target="_blank">
-            <img src="img/bitcoin-icon.png">
+            <img src="img/bitcoin-icon.png" class="mb20">
           </a>
         </div>
       </div>
@@ -737,7 +742,13 @@
   </footer>
 
   <!--SCRIPTS-->
-  <script src="js/production.min.js"></script>
+  <script src="js/dependencies/jquery-1.11.0.min.js"></script>
+  <script src="js/dependencies/bootstrap.min.js"></script>
+  <script src="js/dependencies/constellation.js"></script>
+  <script src="js/dependencies/modernizr-2.7.1.js"></script>
+  <script src="js/dependencies/slick.min.js"></script>
+  <script src="js/dependencies/wow.min.js"></script>
+  <script src="js/main.js"></script>
   <!--SCRIPTS END-->
   <script type="text/javascript">
     adroll_adv_id = "SNYYXEEOWBBXFIO2HEWYAF";
