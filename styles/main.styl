@@ -1,0 +1,208 @@
+.container
+  @media (min-width: 1200px)
+    width: 950px
+  @media (min-width: 992px)
+    width: 970px
+a
+  text-decoration: none !important
+
+h1
+  font-weight: bold
+  font-size: 36px
+  font-family: "Lato"
+  line-height: 44px
+
+h2
+  font-weight: bold
+  font-size: 24px
+  font-family: "Lato"
+  line-height: 29px
+
+
+.white-color
+  color #ffffff
+.blue-color
+  color #2A9490
+
+.black-color
+  color #585858
+
+.text-black
+  font-size: 20px
+  font-family: 'PT Serif', serif
+  color: #585858
+  line-height: 40px
+
+.text-white
+  font-size: 20px
+  font-family: 'PT Serif', serif
+  color: #fff
+  line-height: 40px
+
+.text-right-desktop
+  @media (min-width: 768px)
+    text-align: right
+
+.text-left-desktop
+  @media (min-width: 768px)
+    text-align: left
+
+
+header
+  background-image: url(/img/header-bg.jpg)
+  background-size: cover
+  padding-top: 200px
+  padding-bottom: 100px
+  @media(max-width: 767px)
+    padding-top: 100px
+    padding-bottom: 70px
+    min-height: 100vh
+
+  h1
+    color #fff
+    text-align: center
+    &.tagline
+      font-size: 64px
+      color: #FFFFFF
+      line-height: 77px
+
+      @media(max-width: 767px)
+        font-size: 30px
+        line-height: 40px
+
+
+  h2
+    color #ffffff
+    text-align: center
+    @media(max-width: 767px)
+      font-size: 20px
+      line-height: 25px
+
+  .btn-email-white
+    width 100%
+    @media(max-width: 767px)
+      width 150px
+
+  .countdown
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif
+    font-weight: bold
+    font-size: 100px
+    color: #fff
+    text-align: center
+
+section
+  padding-top 40px
+  padding-bottom 60px
+
+  &#why
+    background-image: url(/img/why-bg.jpg)
+    background-size: cover
+    @media (min-width: 768px)
+      .col-sm-6
+        &:first-child
+          padding-right: 30px
+        &:last-child
+          padding-left: 30px
+  .wallet
+    @media (min-width: 768px)
+      .col-sm-6
+        &:first-child
+          padding-right: 30px
+        &:last-child
+          padding-left: 30px
+
+  &#roadmap
+    background-image: url(/img/roadmap-bg.jpg)
+    background-size: cover
+    padding-bottom: 0
+
+  &#team
+    padding-bottom: 0
+
+  &#advisor
+    padding-top: 0
+    padding-bottom: 0
+
+  &#contacts
+    img
+      height: 60px
+      transition: 0.3s all
+      &:hover
+        transform: scale(1.2)
+
+  &#news
+    background: #F5F5F5
+    padding-bottom: 70px
+    .container > div
+      display: flex
+      align-items: center
+      justify-content: space-between
+      flex-wrap: wrap
+
+      img
+        height: 30px
+        margin: 20px
+        filter: grayscale(1)
+
+        &:hover
+          filter: grayscale(0)
+
+.feature-item
+  margin-bottom: 50px
+
+  > .feature-item-img
+    margin-bottom: 25px
+    height: 70px
+    position: relative
+
+  > .feature-item-img > img
+    position: absolute
+    bottom: 0
+    left: 50%
+    transform: translateX(-50%)
+    max-height: 100%
+
+
+  > h4
+    font-weight: bold
+    font-family: "Lato"
+    min-height: 38px
+    display: block
+    color: #333333
+    text-transform: uppercase
+
+
+  > div
+    font-size: 16px
+    color: #585858
+    font-family: 'PT Serif', serif
+
+footer
+  background-image: url(/img/footer-bg.jpg)
+  background-size: cover
+  padding-top: 50px
+  padding-bottom: 50px
+  font-family: "Lato"
+  color #ffffff
+
+  .line
+    width 100%
+    border-bottom: 1px solid #fff
+    margin 40px 0 20px 0
+  .copyright
+    font-size: 12px
+
+
+.alert-success
+  font-size: 18px
+  padding: 20px
+  color: green
+  background: rgb(255, 255, 255)
+  border-radius: 50px
+
+.alert-error
+  font-size: 18px
+  padding: 15px
+  color: red
+  background: rgb(255, 255, 255)
+  border-radius: 50px

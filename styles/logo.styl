@@ -1,0 +1,50 @@
+.logo {
+  width: 60px;
+  height: 60px;
+  position: relative;
+  display: inline-block;
+  text-align: left;
+  transition: 0.3s all;
+}
+
+@keyframes logo1 {
+  from {
+    transform: rotate(0deg)
+  }
+  to {
+    transform: rotate(360deg)
+  }
+}
+
+@keyframes logo2 {
+  from {
+    transform: rotate(360deg)
+  }
+  to {
+    transform: rotate(0deg)
+  }
+}
+
+.logo1 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  animation-name: logo1;
+  animation-duration: 15s;
+  animation-iteration-count: infinite;
+}
+
+.logo2 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  animation-name: logo2;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+}
+
+.logot {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}

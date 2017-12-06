@@ -1,0 +1,34 @@
+{
+  "name": "landing-template",
+  "private": true,
+  "version": "0.0.0",
+  "description": "a Sails application",
+  "keywords": [],
+  "dependencies": {
+    "grunt": "~0.4.5",
+    "grunt-contrib-clean": "1.0.0",
+    "grunt-contrib-concat": "1.0.1",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-cssmin": "1.0.1",
+    "grunt-contrib-stylus": "^1.2.0",
+    "grunt-contrib-uglify": "1.0.1",
+    "grunt-contrib-watch": "1.0.0",
+    "grunt-sails-linker": "~0.10.1",
+    "grunt-sync": "0.5.2",
+    "include-all": "^1.0.0"
+  },
+  "scripts": {
+    "build": "grunt build",
+    "start": "grunt & lite-server"
+  },
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/TungHT/landing-template.git"
+  },
+  "author": "TungHT",
+  "license": "",
+  "devDependencies": {
+    "grunt-contrib-htmlmin": "^2.4.0"
+  }
+}

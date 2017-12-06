@@ -1,0 +1,76 @@
+.member-item
+  margin-bottom: 70px
+  .avatar
+    width: 100%
+    background-image: url(/img/member-item-bg.jpg)
+    background-size: cover
+    position: relative
+
+    &:hover
+      > img
+        opacity: 0
+      .description
+        opacity: 1
+
+    > img
+      width: 100%
+      height: 100%
+      object-fit: cover
+      transition: 0.3s all;
+
+    &.not-hover
+      > img
+        opacity: 1 !important
+
+    .description
+      opacity: 0
+      position: absolute
+      left: 0
+      right: 0
+      top: 50%
+      transform: translateY(-50%)
+      font-size: 18px
+      color: #ffffff
+      font-family: 'PT Serif', serif
+      text-align: center
+      padding: 20px
+      line-height: 40px
+
+  .name
+    font-weight: 700
+    font-family: "Lato"
+    font-size: 24px
+    text-align: center
+    margin-top: 20px
+  .title
+    font-weight: 500
+    font-family: "Lato"
+    font-size: 18px
+    text-align: center
+    margin-top: 5px
+    margin-bottom: 20px
+
+  .description
+    text-align: center
+    line-height: 30px
+    font-family: 'PT Serif', serif
+    font-size: 18px
+    color: #4A4A4A
+    padding: 0 15px
+
+  .link-profile
+    text-align: center
+    a
+      text-decoration: none
+      display: inline-block
+      margin: 0 20px
+      width: 30px
+      height: 30px
+      background-size: 100% 100%
+    img
+      width: 100%
+      height: 100%
+      opacity: 0
+      transition: 0.3s all;
+      &:hover
+        opacity: 1
