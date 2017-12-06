@@ -1109,8 +1109,17 @@ $(document).ready(function () {
   });
 
   $('.videos-slider').slick({
+    dots: true,
+    infinite: true,
+    speed: 700,
+    slidesToShow: 1,
+    centerMode: true,
     arrows: false,
-    dots: true
+    focusOnSelect: true,
+    waitForAnimate: true,
+    infinite: false,
+    initialSlide: 1,
+    mobileFirst: true
   });
 
   //------------------------------------//

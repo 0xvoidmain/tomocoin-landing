@@ -19,12 +19,7 @@
   <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.7.1/slick/slick-theme.css"/>
 
   <!--STYLES-->
-  <link rel="stylesheet" href="styles/lib/animate.css">
-  <link rel="stylesheet" href="styles/lib/bootstrap.min.css">
-  <link rel="stylesheet" href="styles/lib/font-awesome.min.css">
-  <link rel="stylesheet" href="styles/lib/loading.css">
-  <link rel="stylesheet" href="styles/lib/slideshow.css">
-  <link rel="stylesheet" href="styles/importer.css">
+  <link rel="stylesheet" href="styles/production.min.css">
   <!--STYLES END-->
 
   <!-- Hotjar Tracking Code for https://tomocoin.io -->
@@ -174,7 +169,20 @@
         </div>
       </div>
     </div>
-    <img src="img/demo/Group 2.png" class="w100 mt30">
+    <div class="videos-slider mt50">
+      <div class="container">
+        <img class="thumb" src="img/videos/2.jpg" />
+        <img class="play-icon" src="img/play-icon.png" />
+      </div>
+      <div class="container">
+        <img class="thumb" src="img/videos/1.jpg" />
+        <img class="play-icon" src="img/play-icon.png" />
+      </div>
+      <div class="container">
+        <img class="thumb" src="img/videos/3.jpg" />
+        <img class="play-icon" src="img/play-icon.png" />
+      </div>
+    </div>
     <div class="text-center mt80">
       <a class="btn btn-blue">
         Download White paper
@@ -188,21 +196,21 @@
       <div class="row mt30">
         <div class="col-sm-6 text-white text-justify">
             - <strong>Content contributor's network:</strong> The network is created by and for contributors. Help solving other's problems; create and publish useful contents and receive rewards from the network.
-            <br/>
-            <br/>
-            - <strong>Built-in micro payment</strong> with a store of value characteristics: unique architecture allowing for an easy monetization with micropayment in publishing, gaming, crowdfunding etc. but also a secure store of value of coin on a public blockchain.
         </div>
-        <div class="visible-xs">
-          <br/>
-          <br/>
-        </div>
+        <div class="visible-xs mt30"></div>
         <div class="col-sm-6 text-white text-justify">
             - <strong>First rate usability</strong> using technology such as mobile first, AI, AR, location and camera based services.
-            <br/>
-            <br/>
-            - <strong>User privacy:</strong> no tracking, no data mining and surveillance; allowing for anonymous identity and content creation.
         </div>
       </div>
+      <div class="row mt30">
+          <div class="col-sm-6 text-white text-justify">
+              - <strong>Built-in micro payment</strong> with a store of value characteristics: unique architecture allowing for an easy monetization with micropayment in publishing, gaming, crowdfunding etc. but also a secure store of value of coin on a public blockchain.
+          </div>
+          <div class="visible-xs mt30"></div>
+          <div class="col-sm-6 text-white text-justify">
+              - <strong>User privacy:</strong> no tracking, no data mining and surveillance; allowing for anonymous identity and content creation.
+          </div>
+        </div>
     </div>
   </section>
 
@@ -230,24 +238,24 @@
           <div class="text-right-desktop mt10 text-black">
             This Tomo application will be the flagship consumer application within the Tomo network. The beta version is now available at tomoapp.com, and free download at the Apple App Store and Google Play Store.
           </div>
-          <div class="text-center text-right-desktop mt25">
-            <a href="https://tomoapp.com" class="mr10">
-              <img src="img/webapp.png" style="margin-bottom: 10px; width: 28%;"/>
+          <div class="text-center text-right-desktop mt25" style="display: flex; justify-content: space-between;">
+            <a href="https://tomoapp.com" style="margin-bottom: 10px; width: 32%; display: block;">
+              <img src="img/webapp.png" width="100%"/>
             </a>
-            <a href="https://goo.gl/s3nvFs" class="mr10">
-              <img src="img/appstore.png" style="margin-bottom: 10px; width: 28%;"/>
+            <a href="https://goo.gl/s3nvFs" style="margin-bottom: 10px; width: 32%; display: block;">
+              <img src="img/appstore.png" width="100%"/>
             </a>
-            <a href="https://goo.gl/imvNHp">
-              <img src="img/googleplay.png" style="margin-bottom: 10px; width: 28%;"/>
+            <a href="https://goo.gl/imvNHp" style="margin-bottom: 10px; width: 32%; display: block;">
+              <img src="img/googleplay.png" width="100%"/>
             </a>
+          </div>
+          <div class="text-center mt30" data-toggle="collapse" data-target="#tomo-features">
+            <button class="btn-feature">See all features</button>
           </div>
         </div>
       </div>
 
       <div class="row mt70">
-        <div class="text-center mb30" data-toggle="collapse" data-target="#tomo-features">
-          <button class="btn-feature">See all features</button>
-        </div>
         <div id="tomo-features" class="container collapse">
           <div class="row text-center">
             <div class="col-sm-4">
@@ -742,13 +750,7 @@
   </footer>
 
   <!--SCRIPTS-->
-  <script src="js/dependencies/jquery-1.11.0.min.js"></script>
-  <script src="js/dependencies/bootstrap.min.js"></script>
-  <script src="js/dependencies/constellation.js"></script>
-  <script src="js/dependencies/modernizr-2.7.1.js"></script>
-  <script src="js/dependencies/slick.min.js"></script>
-  <script src="js/dependencies/wow.min.js"></script>
-  <script src="js/main.js"></script>
+  <script src="js/production.min.js"></script>
   <!--SCRIPTS END-->
   <script type="text/javascript">
     adroll_adv_id = "SNYYXEEOWBBXFIO2HEWYAF";
