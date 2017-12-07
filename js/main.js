@@ -78,9 +78,6 @@ $(document).ready(function () {
     mobileFirst: true
   });
 
-  //------------------------------------//
-  //Wow Animation//
-  //------------------------------------//
   wow = new WOW(
     {
       boxClass: 'wow',      // animated element css class (default is wow)
@@ -90,4 +87,14 @@ $(document).ready(function () {
     }
   );
   wow.init();
+
+
+
+  $("#video1, #video2, #video3").videoPopup({
+    autoplay: 1,
+    controlsColor: 'white',
+    showVideoInformations: 0,
+    width: 1000
+  });
+
 });
