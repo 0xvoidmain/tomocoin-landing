@@ -19,7 +19,12 @@
   <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.7.1/slick/slick-theme.css"/>
 
   <!--STYLES-->
-  <link rel="stylesheet" href="styles/production.min.css">
+  <link rel="stylesheet" href="styles/lib/animate.css">
+  <link rel="stylesheet" href="styles/lib/bootstrap.min.css">
+  <link rel="stylesheet" href="styles/lib/font-awesome.min.css">
+  <link rel="stylesheet" href="styles/lib/loading.css">
+  <link rel="stylesheet" href="styles/lib/slideshow.css">
+  <link rel="stylesheet" href="styles/importer.css">
   <!--STYLES END-->
 
   <!-- Hotjar Tracking Code for https://tomocoin.io -->
@@ -64,8 +69,8 @@
           <img src="img/t.png" class="logot"></img>
         </a>
       </div>
-      <div class="dropdown visible-xs" style="position: absolute; top: 5px; right: 70px;">
-        <button class="language dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+      <div class="dropdown language visible-xs" style="position: absolute; top: 5px; right: 70px;">
+        <button class="dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
           <img src="img/lang.svg" style="margin-right: 5px;"/> ENG
           <span class="caret"></span>
         </button>
@@ -75,21 +80,36 @@
       </div>
       <div class="navbar-collapse collapse">
         <ul class="nav navbar-nav navbar-right visible-xs">
-          <li><a href="/#intro" class="scroll" data-toggle="collapse" data-target=".navbar-collapse">Introduction</a></li>
+          <li><a href="/#intro" class="scroll" data-toggle="collapse" data-target=".navbar-collapse">Intro Tomocoin</a></li>
+          <li><a href="/#" class="scroll" data-toggle="collapse" data-target=".navbar-collapse">Whitepaper</a></li>
           <li><a href="/#application" class="scroll" data-toggle="collapse" data-target=".navbar-collapse">Application</a></li>
           <li><a href="/#roadmap" class="scroll" data-toggle="collapse" data-target=".navbar-collapse">Roadmap</a></li>
           <li><a href="/#team" class="scroll" data-toggle="collapse" data-target=".navbar-collapse">Team</a></li>
-          <li><a href="/#contacts" class="scroll" data-toggle="collapse" data-target=".navbar-collapse">Contact</a></li>
+          <li><a href="/#" class="scroll" data-toggle="collapse" data-target=".navbar-collapse">FAQ</a></li>
         </ul>
         <ul class="nav navbar-nav navbar-right hidden-xs">
-          <li><a href="/#intro" class="scroll">Introduction</a></li>
+          <li><a href="/#intro" class="scroll">Intro Tomocoin</a></li>
+          <li><a href="/#" class="scroll">Whitepaper</a></li>
           <li><a href="/#application" class="scroll">Application</a></li>
           <li><a href="/#roadmap" class="scroll">Roadmap</a></li>
           <li><a href="/#team" class="scroll">Team</a></li>
-          <li><a href="/#contacts" class="scroll">Contact</a></li>
+          <li><a href="/#" class="scroll">FAQ</a></li>
           <li>
-            <div class="dropdown" style="display: inline-block;">
-              <button class="language dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+            <div class="quick-contacts">
+              <a href="https://www.facebook.com/tomocoin" target="_blank" style="background-image: url(img/fb-sm-wi.png);" class="ml10">
+                <!-- <img src="img/fb-sm-i.png" /> -->
+              </a>
+              <a href="https://twitter.com/TomoCoin_io" target="_blank" style="background-image: url(img/tw-sm-wi.png);" class="ml5 mr5">
+                <!-- <img src="img/tw-sm-i.png" /> -->
+              </a>
+              <a href="https://join.slack.com/t/tomocoin/shared_invite/enQtMjc4Mjk2ODk5MTg2LTg3NDk5ZjcxNTIxMWEwZDdkYTZhNjIwNWFmMDQxYjQ3NDQyM2MyZjBmNDAxY2FmNzAwYzc3NzEzODQ1ZDg1Y2I" target="_blank" style="background-image: url(img/slack-sm-wi.png);">
+                <!-- <img src="img/in-sm-i.png" /> -->
+              </a>
+            </div>
+          </li>
+          <li>
+            <div class="dropdown language" style="float: right;">
+              <button class="dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
                 <img src="img/lang.svg" style="margin-right: 5px;"/> ENG
                 <span class="caret"></span>
               </button>
@@ -750,7 +770,13 @@
   </footer>
 
   <!--SCRIPTS-->
-  <script src="js/production.min.js"></script>
+  <script src="js/dependencies/jquery-1.11.0.min.js"></script>
+  <script src="js/dependencies/bootstrap.min.js"></script>
+  <script src="js/dependencies/constellation.js"></script>
+  <script src="js/dependencies/modernizr-2.7.1.js"></script>
+  <script src="js/dependencies/slick.min.js"></script>
+  <script src="js/dependencies/wow.min.js"></script>
+  <script src="js/main.js"></script>
   <!--SCRIPTS END-->
   <script type="text/javascript">
     adroll_adv_id = "SNYYXEEOWBBXFIO2HEWYAF";

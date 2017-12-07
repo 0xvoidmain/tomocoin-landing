@@ -33,6 +33,10 @@
 
 .navbar-nav
   >li
+    margin-left 8px
+    @media(min-width: 768px)
+      &:first-child
+        margin-left: 0
     > a
       position relative
       display block
@@ -40,7 +44,6 @@
       font-size 11px
       letter-spacing 1px
       text-transform uppercase
-      margin-left 25px
       padding 15px 10px
 
 .navbar-nav
@@ -52,20 +55,46 @@
     &:focus
       background-color transparent !important
 
-.navbar-collapse
-    border-color #101010
-
 .navbar-toggle
     border-color transparent
     .icon-bar
       background #ffffff
 
 .language
-  background transparent
-  border none
-  color #ffffff
-  font-size 10px
-  letter-spacing 1px
-  text-transform uppercase
-  margin-left 50px
-  padding 15px 10px
+  > button
+    background transparent
+    border none
+    color #ffffff
+    font-size 10px
+    letter-spacing 1px
+    text-transform uppercase
+    margin-left 10px
+    padding 14px 10px 15px 10px
+    float right
+  .dropdown-menu
+    width: 100px !important
+    min-width: 100px !important
+
+    a
+      opacity: 1
+      &:hover
+        background rgba(0, 0, 0, 0.1) !important
+
+
+.quick-contacts
+    text-align: center
+    display: inline-block
+    margin-top: 5px
+    a
+      text-decoration: none
+      display: inline-block
+      width: 40px
+      height: 40px
+      background-size: 100% 100%
+    img
+      width: 100%
+      height: 100%
+      opacity: 0
+      transition: 0.3s all;
+      &:hover
+        opacity: 1
