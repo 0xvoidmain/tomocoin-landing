@@ -75,7 +75,8 @@ $(document).ready(function () {
     waitForAnimate: true,
     infinite: false,
     initialSlide: 1,
-    mobileFirst: true
+    mobileFirst: true,
+    variableWidth: true
   });
 
   wow = new WOW(
