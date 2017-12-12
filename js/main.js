@@ -41,11 +41,9 @@ function submitEmail(id) {
   }
 }
 
-
-$(document).ready(function () {
-  //------------------------------------//
-  //Navbar//
-  //------------------------------------//
+function setup() {
+  $('#loading').hide();
+  $('#main').show();
   var menu = $('.navbar');
   $(window).bind('scroll', function (e) {
     if ($(window).scrollTop() > 140) {
@@ -97,5 +95,20 @@ $(document).ready(function () {
     showVideoInformations: 0,
     width: 1000
   });
+}
 
+
+$(document).ready(function () {
+  var idTimeOut = setTimeout(function() {
+    $('#loading').hide();
+    $('#main').show();
+  }, 5000);
+
+  $('#header, #intro, #why').waitForImages(function() {
+    console.log('load');
+    setTimeout(function() {
+      setup();
+    }, 100);
+    clearTimeout(idTimeOut);
+  });
 });

@@ -48,726 +48,132 @@
   height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <!-- End Google Tag Manager (noscript) -->
 
-
-  <div class="navbar mini-xs">
-    <div class="container">
-      <div class="navbar-header">
-
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-        <a class="logo" href="/#">
-          <!-- <img src="img/1.png" class="logo1"></img>
-          <img src="img/2.png" class="logo2"></img>
-          <img src="img/t.png" class="logot"></img> -->
-          <img src="img/logo.svg" class="w100" />
-        </a>
-      </div>
-      <div class="dropdown language visible-xs" style="position: absolute; top: 5px; right: 70px;">
-        <button class="dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-          <img src="img/lang.svg" style="margin-right: 5px;"/> ENG
-          <img class="down-icon" src="img/down-icon.svg" >
-          <!-- <span class="caret down-icon"></span> -->
-        </button>
-        <ul class="dropdown-menu" style="right: 0;" aria-labelledby="dropdownMenu1">
-          <li><a href="#" style="margin-left: 0">VI</a></li>
-        </ul>
-      </div>
-      <div class="navbar-collapse collapse p0">
-        <ul class="nav navbar-nav navbar-right visible-xs">
-          <li><a href="/#intro" class="scroll" data-toggle="collapse" data-target=".navbar-collapse">Intro Tomocoin</a></li>
-          <li><a href="/#" class="scroll" data-toggle="collapse" data-target=".navbar-collapse">Whitepaper</a></li>
-          <li><a href="/#application" class="scroll" data-toggle="collapse" data-target=".navbar-collapse">Application</a></li>
-          <li><a href="/#roadmap" class="scroll" data-toggle="collapse" data-target=".navbar-collapse">Roadmap</a></li>
-          <li><a href="/#team" class="scroll" data-toggle="collapse" data-target=".navbar-collapse">Team</a></li>
-          <li><a href="/#" class="scroll" data-toggle="collapse" data-target=".navbar-collapse">FAQ</a></li>
-        </ul>
-        <ul class="nav navbar-nav navbar-right hidden-xs">
-          <li><a href="/#intro" class="scroll">Intro Tomocoin</a></li>
-          <li><a href="/#" class="scroll">Whitepaper</a></li>
-          <li><a href="/#application" class="scroll">Application</a></li>
-          <li><a href="/#roadmap" class="scroll">Roadmap</a></li>
-          <li><a href="/#team" class="scroll">Team</a></li>
-          <li><a href="/#" class="scroll">FAQ</a></li>
-          <li>
-            <div class="quick-contacts">
-              <a href="https://www.facebook.com/tomocoin" target="_blank" style="background-image: url(img/fb-sm-wi.png);" class="ml10">
-                <!-- <img src="img/fb-sm-i.png" /> -->
-              </a>
-              <a href="https://twitter.com/TomoCoin_io" target="_blank" style="background-image: url(img/tw-sm-wi.png);" class="ml10 mr10">
-                <!-- <img src="img/tw-sm-i.png" /> -->
-              </a>
-              <a href="https://join.slack.com/t/tomocoin/shared_invite/enQtMjc4Mjk2ODk5MTg2LTg3NDk5ZjcxNTIxMWEwZDdkYTZhNjIwNWFmMDQxYjQ3NDQyM2MyZjBmNDAxY2FmNzAwYzc3NzEzODQ1ZDg1Y2I" target="_blank" style="background-image: url(img/slack-sm-wi.png);">
-                <!-- <img src="img/in-sm-i.png" /> -->
-              </a>
-            </div>
-          </li>
-          <li>
-            <div class="dropdown language" style="float: right;">
-              <button class="dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-                <img src="img/lang.svg" style="margin-right: 5px;"/> ENG
-                <img class="down-icon" src="img/down-icon.svg" >
-                <!-- <span class="caret down-icon"></span> -->
-              </button>
-              <ul class="dropdown-menu" style="right: 0;" aria-labelledby="dropdownMenu1">
-                <li><a href="#" style="margin-left: 0">VI</a></li>
-              </ul>
-            </div>
-          </li>
-        </ul>
-      </div>
-
-    </div>
+  <div id="loading" class="cssload-thecube">
+    <div class="cssload-cube cssload-c1"></div>
+    <div class="cssload-cube cssload-c2"></div>
+    <div class="cssload-cube cssload-c4"></div>
+    <div class="cssload-cube cssload-c3"></div>
   </div>
 
-  <header>
-    <div class="container">
-      <!-- <h1>
-          Don't keep your money safe.<br/>
-          Let them grow with our project.
-      </h1>
-      <div class="countdown mt30">
-        05 : 17 : 03 : 60
-      </div>
+  <div id="main" style="display: none">
 
-      <div class="text-center mt60">
-        <a class="btn btn-white">
-          Notify me when availabel
-        </a>
-      </div> -->
-      <h1 class="tagline fadeIn wow" data-wow-delay="0.6s">Reimagining Social Network with Cryptocurrency</h1>
-      <h2 class="mt60 mb50 fadeInUp wow" data-wow-delay="1s">Don't keep your money safe. Let them grow with our project.</h2>
-      <div id="mailing-list" class="fadeInUp wow" data-wow-delay="1.5s">
-        <div class="row email-form">
-          <div class="col-sm-6 col-sm-offset-2 mb10">
-            <input type="email" class="input-email" placeholder="Enter your email address" onkeypress="keyPressEmail(event, '#mailing-list')"/>
-          </div>
-          <div class="col-sm-2 text-left-desktop text-center">
-            <button class="btn-email-white" onclick="submitEmail('#mailing-list')">Submit</button>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-sm-8 col-sm-offset-2">
-            <div class="alert-error text-center" style="display: none;">Error, Please try again.</div>
-            <div class="alert-success text-center" style="display: none;">
-              <div class="mb10" style="font-weight: bold">Thank you. Please check your inbox for an email verification.</div>
-              <div class="row">
-                <div class="col-sm-6 text-right-desktop">
-                  <a href="https://t.me/tomocoin" target="_blank">
-                    <img src="img/telegram-icon.png" height="20px">
-                    &nbsp;<span class="black-color">Join Telegram</span>
-                  </a>
-                </div>
-
-                <div class="col-sm-6 text-left-desktop">
-                  <a href="https://join.slack.com/t/tomocoin/shared_invite/enQtMjc4Mjk2ODk5MTg2LTg3NDk5ZjcxNTIxMWEwZDdkYTZhNjIwNWFmMDQxYjQ3NDQyM2MyZjBmNDAxY2FmNzAwYzc3NzEzODQ1ZDg1Y2I" target="_blank">
-                    <img src="img/slack-icon.png" height="20px">
-                    &nbsp;<span class="black-color">Join our Slack</span>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </header>
-
-  <section id="intro">
-    <div class="container">
-      <h1 class="text-center fadeIn wow">Intro Tomocoin<span class="blue-color">.</span></h1>
-      <div class="row mt35">
-        <div class="col-sm-8 col-sm-offset-2">
-          <div class="text-center text-black zoomIn wow">
-              We are building a new social network from ground up with a built-in cryptocurrency. Our goal is to make Tomo Network the host of multiple successful decentralized applications, and Tomocoin one of the most valuable and important digital assets for millions of people.
-              Our vision is our project is worth billions next five years.
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="videos-slider mt35">
+    <div class="navbar mini-xs">
       <div class="container">
-        <img class="thumb zoomIn wow" data-wow-delay="0.5s" src="img/videos/2.jpg" width="940px" />
-        <img id="video1" video-url="https://www.youtube.com/watch?v=CaVHM7ZoYlI" class="play-icon fadeIn wow" data-wow-delay="1s" src="img/play-icon.png" />
+        <div class="navbar-header">
+
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="logo" href="/#">
+            <!-- <img src="img/1.png" class="logo1"></img>
+            <img src="img/2.png" class="logo2"></img>
+            <img src="img/t.png" class="logot"></img> -->
+            <img src="img/logo.svg" class="w100" />
+          </a>
+        </div>
+        <div class="dropdown language visible-xs" style="position: absolute; top: 5px; right: 70px;">
+          <button class="dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+            <img src="img/lang.svg" style="margin-right: 5px;"/> ENG
+            <img class="down-icon" src="img/down-icon.svg" >
+            <!-- <span class="caret down-icon"></span> -->
+          </button>
+          <ul class="dropdown-menu" style="right: 0;" aria-labelledby="dropdownMenu1">
+            <li><a href="#" style="margin-left: 0">VI</a></li>
+          </ul>
+        </div>
+        <div class="navbar-collapse collapse p0">
+          <ul class="nav navbar-nav navbar-right visible-xs">
+            <li><a href="/#intro" class="scroll" data-toggle="collapse" data-target=".navbar-collapse">Intro Tomocoin</a></li>
+            <li><a href="/#" class="scroll" data-toggle="collapse" data-target=".navbar-collapse">Whitepaper</a></li>
+            <li><a href="/#application" class="scroll" data-toggle="collapse" data-target=".navbar-collapse">Application</a></li>
+            <li><a href="/#roadmap" class="scroll" data-toggle="collapse" data-target=".navbar-collapse">Roadmap</a></li>
+            <li><a href="/#team" class="scroll" data-toggle="collapse" data-target=".navbar-collapse">Team</a></li>
+            <li><a href="/#" class="scroll" data-toggle="collapse" data-target=".navbar-collapse">FAQ</a></li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right hidden-xs">
+            <li><a href="/#intro" class="scroll">Intro Tomocoin</a></li>
+            <li><a href="/#" class="scroll">Whitepaper</a></li>
+            <li><a href="/#application" class="scroll">Application</a></li>
+            <li><a href="/#roadmap" class="scroll">Roadmap</a></li>
+            <li><a href="/#team" class="scroll">Team</a></li>
+            <li><a href="/#" class="scroll">FAQ</a></li>
+            <li>
+              <div class="quick-contacts">
+                <a href="https://www.facebook.com/tomocoin" target="_blank" style="background-image: url(img/fb-sm-wi.png);" class="ml10">
+                  <!-- <img src="img/fb-sm-i.png" /> -->
+                </a>
+                <a href="https://twitter.com/TomoCoin_io" target="_blank" style="background-image: url(img/tw-sm-wi.png);" class="ml10 mr10">
+                  <!-- <img src="img/tw-sm-i.png" /> -->
+                </a>
+                <a href="https://join.slack.com/t/tomocoin/shared_invite/enQtMjc4Mjk2ODk5MTg2LTg3NDk5ZjcxNTIxMWEwZDdkYTZhNjIwNWFmMDQxYjQ3NDQyM2MyZjBmNDAxY2FmNzAwYzc3NzEzODQ1ZDg1Y2I" target="_blank" style="background-image: url(img/slack-sm-wi.png);">
+                  <!-- <img src="img/in-sm-i.png" /> -->
+                </a>
+              </div>
+            </li>
+            <li>
+              <div class="dropdown language" style="float: right;">
+                <button class="dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                  <img src="img/lang.svg" style="margin-right: 5px;"/> ENG
+                  <img class="down-icon" src="img/down-icon.svg" >
+                  <!-- <span class="caret down-icon"></span> -->
+                </button>
+                <ul class="dropdown-menu" style="right: 0;" aria-labelledby="dropdownMenu1">
+                  <li><a href="#" style="margin-left: 0">VI</a></li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+        </div>
+
       </div>
+    </div>
+
+    <header id="header">
       <div class="container">
-        <img class="thumb zoomIn wow" data-wow-delay="0.5s" src="img/videos/1.jpg" width="940px"  />
-        <img id="video2" video-url="https://www.youtube.com/watch?v=okTcuq9VsAA" class="play-icon fadeIn wow" data-wow-delay="1s" src="img/play-icon.png" />
-      </div>
-      <div class="container">
-        <img class="thumb zoomIn wow" data-wow-delay="0.5s" src="img/videos/3.jpg" width="940px"  />
-        <img id="video3" video-url="https://www.youtube.com/watch?v=FtZPhMRqdLo" class="play-icon fadeIn wow" data-wow-delay="1s" src="img/play-icon.png" />
-      </div>
-    </div>
-    <div class="text-center" style="margin-top: 135px">
-      <a class="btn btn-blue fadeInDown wow">
-        Download White paper
-      </a>
-    </div>
-  </section>
+        <!-- <h1>
+            Don't keep your money safe.<br/>
+            Let them grow with our project.
+        </h1>
+        <div class="countdown mt30">
+          05 : 17 : 03 : 60
+        </div>
 
-  <section id="why">
-    <div class="container">
-      <h1 class="text-center white-color fadeInDown wow mt50">Why TOMOCOIN.</h1>
-      <div class="row mt35">
-        <div class="col-sm-6 text-white text-justify zoomIn wow" data-wow-delay="0.3s">
-            <strong>BUILT-IN MICRO PAYMENT</strong> with a store of value characteristics: unique architecture allowing for an easy monetization with micropayment in publishing, gaming, crowdfunding etc. but also a secure store of value of coin on a public blockchain.
-        </div>
-        <div class="visible-xs mt30"></div>
-        <div class="col-sm-6 text-white text-justify zoomIn wow" data-wow-delay="0.8s">
-            <strong>CONTENT CONTRIBUTOR'S NETWORK:</strong> The network is created by and for contributors. Help solving other's problems; create and publish useful contents and receive rewards from the network.
-        </div>
-      </div>
-      <div class="row mt30">
-          <div class="col-sm-6 text-white text-justify zoomIn wow" data-wow-delay="1.3s">
-              <strong>USER PRIVACY:</strong> No tracking, no data mining and surveillance; allowing for anonymous identity and content creation.
-          </div>
-          <div class="visible-xs mt30"></div>
-          <div class="col-sm-6 text-white text-justify zoomIn wow" data-wow-delay="1.8s">
-              <strong>FIRST RATE USABILITY</strong> using technology such as mobile first, AI, AR, location and camera based services.
-          </div>
-        </div>
-    </div>
-  </section>
-
-  <section id="application">
-    <div class="container">
-      <h1 class="text-center fadeInDown wow mt70">Application<span class="blue-color">.</span></h1>
-      <div class="row mt35 mb50">
-        <div class="col-sm-8 col-sm-offset-2">
-          <div class="text-center text-black zoomIn wow" data-wow-delay="0.5s">
-            Our mission is to be a leading force in building the Internet of Value, designing its infrastructures and working toward a reality that will make knowledge, decentralization, financial independence, and opportunities accessible to everyone, everywhere.
-          </div>
-        </div>
-      </div>
-
-      <div class="row">
-        <div class="col-sm-12">
-          <h2 class="text-right-desktop fadeInRight wow">
-            Tomo video-sharing application
-          </h2>
-        </div>
-        <div class="col-sm-6 text-center">
-          <img src="img/tomoapp-demo.png" class="w100 fadeInLeft wow" data-wow-delay="0.5s">
-        </div>
-        <div class="col-sm-6">
-          <div class="text-right-desktop mt15 text-black fadeInRight wow" data-wow-delay="0.5s">
-            This Tomo application will be the flagship consumer application within the Tomo network. The beta version is now available at tomoapp.com, and free download at the Apple App Store and Google Play Store.
-          </div>
-          <div class="text-center text-right-desktop mt25" style="display: flex; justify-content: space-between;">
-            <a href="https://tomoapp.com" style="margin-bottom: 10px; width: 32%; display: block;" class="fadeInUp wow" data-wow-delay="1s">
-              <img src="img/webapp.png" width="100%"/>
-            </a>
-            <a href="https://goo.gl/s3nvFs" style="margin-bottom: 10px; width: 32%; display: block;" class="fadeInUp wow" data-wow-delay="1.2s">
-              <img src="img/appstore.png" width="100%"/>
-            </a>
-            <a href="https://goo.gl/imvNHp" style="margin-bottom: 10px; width: 32%; display: block;" class="fadeInUp wow" data-wow-delay="1.4s">
-              <img src="img/googleplay.png" width="100%"/>
-            </a>
-          </div>
-          <div class="text-center mt15 fadeIn wow" data-wow-delay="2s" data-toggle="collapse" data-target="#tomo-features">
-            <button class="btn-feature">See all features</button>
-          </div>
-        </div>
-      </div>
-
-      <div class="row mt70">
-        <div id="tomo-features" class="container collapse">
-          <div class="row text-center">
-            <div class="col-sm-4">
-              <div class="feature-item">
-                <div class="feature-item-img"><img src="img/tomoapp/1.svg" /></div>
-                <h4>Mobile app & webapp</h4>
-                <div>The Tomoapp is available on both Android, iOS and browser</div>
-              </div>
-            </div>
-            <div class="col-sm-4">
-              <div class="feature-item">
-                <div class="feature-item-img"><img src="img/tomoapp/10.svg" /></div>
-                <h4>Peer to peer question and open question</h4>
-                <div>Send a question to a friend or expert. Make an open question for everyone</div>
-              </div>
-            </div>
-            <div class="col-sm-4">
-              <div class="feature-item">
-                <div class="feature-item-img"><img src="img/tomoapp/11.svg" /></div>
-                <h4>Answer via 1 minute video or text</h4>
-                <div>One minute video is brilliant to answer and watch. A texted answer is a plus</div>
-              </div>
-            </div>
-          </div>
-          <div class="row text-center">
-            <div class="col-sm-4">
-              <div class="feature-item">
-                <div class="feature-item-img"><img src="img/tomoapp/9.svg" /></div>
-                <h4>Multi language community</h4>
-                <div>Support diverse demands</div>
-              </div>
-            </div>
-            <div class="col-sm-4">
-              <div class="feature-item">
-                <div class="feature-item-img"><img src="img/tomoapp/3.svg" /></div>
-                <h4>Personalization feed</h4>
-                <div>Anything you see is the best for you</div>
-              </div>
-            </div>
-            <div class="col-sm-4">
-              <div class="feature-item">
-                <div class="feature-item-img"><img src="img/tomoapp/5.svg" /></div>
-                <h4>Channel</h4>
-                <div>Create your content and spread your story. Or just be an active “lurker”/fan</div>
-              </div>
-            </div>
-          </div>
-          <div class="row text-center">
-            <div class="col-sm-4">
-              <div class="feature-item">
-                <div class="feature-item-img"><img src="img/tomoapp/7.svg" /></div>
-                <h4>Instant messaging</h4>
-                <div>Communicate directly with ones you connect with</div>
-              </div>
-            </div>
-            <div class="col-sm-4">
-              <div class="feature-item">
-                <div class="feature-item-img"><img src="img/tomoapp/8.svg" /></div>
-                <h4>Friends and followers</h4>
-                <div>Connect with your friends and your fans or Follow experts and stars you admire</div>
-              </div>
-            </div>
-            <div class="col-sm-4">
-              <div class="feature-item">
-                <div class="feature-item-img"><img src="img/tomoapp/2.svg" /></div>
-                <h4>Comment and mention</h4>
-                <div>Join discussion, comment (non-)anonymously/ and mention someone also interested in</div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="row mt65 wallet">
-        <div class="col-sm-12">
-          <h2 class="fadeInLeft wow">
-            Wallet
-          </h2>
-        </div>
-        <div>
-          <div class="col-sm-6">
-            <div class="mt15 text-justify text-black fadeInLeft wow" data-wow-delay="1s">
-              A secure and user-friendly coin wallet that gives financial control back
-              to the end-users is one of the most important parts of the infrastructure
-              of the “Internet of Value”. It will bridge the gap between a cryptocurrency
-              enthusiast and a mainstream user – and possibly increase the adoption rate of
-              cryptocurrency by 10-fold if done right. We want to invest in building such a
-              wallet, firstly to host Tomocoin and Ethereum and later multiple other
-              cryptographic tokens and currencies.
-            </div>
-          </div>
-          <div class="col-sm-6">
-            <div class="row zoomIn wow mt35" data-wow-delay="1s">
-              <div class="col-xs-3 text-right">
-                <img src="img/wallet/icon1.svg" class="w40px">
-              </div>
-              <div class="col-xs-9">
-                <span class="text-black lh23 fs18">
-                  To safely store Tomocoin, Ethereum, and other coins and tokens
-                </span>
-              </div>
-            </div>
-
-            <div class="row mt50 zoomIn wow" data-wow-delay="1.5s">
-              <div class="col-xs-3 text-right">
-                <img src="img/wallet/icon2.svg" class="w40px">
-              </div>
-              <div class="col-xs-9">
-                <span class="text-black lh23 fs18">
-                  A Tomo debit card will be linked with Tomo wallet for payments in physical locations
-                </span>
-              </div>
-            </div>
-
-            <div class="row mt50 zoomIn wow" data-wow-delay="2s">
-              <div class="col-xs-3 text-right">
-                <img src="img/wallet/icon3.svg" class="w40px">
-              </div>
-              <div class="col-xs-9">
-                <span class="text-black lh23 fs18">
-                  Users will be able to safely send Tomocoin to friends and contacts
-                </span>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="row mt70">
-        <div class="col-sm-12">
-          <h2 class="text-right-desktop fadeInRight wow">
-            Debit Card
-          </h2>
-        </div>
-        <div class="col-sm-6 text-center">
-          <img src="img/debitcard-demo.png" class="w100 fadeInLeft wow" data-wow-delay="1s" style="margin-left: -40px">
-        </div>
-        <div class="col-sm-6">
-          <div class="text-right-desktop mt10 text-black fadeInRight wow" data-wow-delay="0.5s">
-            Connect your Tomo account wallet to your Tomo debit
-            card to spend your coins as fiat currency anywhere in the world.
-            Fees will be minimal and as the card uses Visa infrastructure
-            you can use it almost anywhere in the world.
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section id="roadmap">
-    <div class="container">
-      <h1 class="white-color text-center mb50 mt75 fadeInDown wow">Roadmap.</h1>
-      <ul class="timeline">
-        <li class="fadeIn wow">
-          <div class="timeline-badge"></div>
-          <div class="timeline-panel">
-            <div class="timeline-heading">
-              <h3 class="timeline-title">Q2/2017</h3>
-              <h3 class="timeline-title">Alpha launch</h3>
-            </div>
-            <div class="timeline-body">
-              <p>• Android/iOS app</p>
-              <p>• Peer to peer Question and answer</p>
-              <p>• Answer via Video in 1 minute</p>
-              <p>• Open question space</p>
-            </div>
-          </div>
-        </li>
-        <li class="timeline-inverted fadeIn wow">
-          <div class="timeline-badge"></div>
-          <div class="timeline-panel">
-            <div class="timeline-heading">
-              <h3 class="timeline-title">Q3/2017</h3>
-              <h3 class="timeline-title">Beta launch</h3>
-            </div>
-            <div class="timeline-body">
-              <p>• Multiple language communities</p>
-              <p>• Answer in text</p>
-              <p>• Notification system</p>
-              <p>• Anonymous questions, comments</p>
-            </div>
-          </div>
-        </li>
-        <li class="fadeIn wow">
-          <div class="timeline-badge"></div>
-          <div class="timeline-panel">
-            <div class="timeline-heading">
-              <h3 class="timeline-title">Q4/2017</h3>
-              <h3 class="timeline-title">Tomoapp update</h3>
-              <h4 class="timeline-title" style="color: #50e3c2">(We are here)</h4>
-            </div>
-            <div class="timeline-body">
-              <p>• Topics and hashtags</p>
-              <p>• AMA System - Ask me anything</p>
-              <p>• Private messages</p>
-              <p>• New search engine and AI design</p>
-            </div>
-          </div>
-        </li>
-        <li class="timeline-inverted fadeIn wow">
-          <div class="timeline-badge"></div>
-          <div class="timeline-panel">
-            <div class="timeline-heading">
-              <h3 class="timeline-title">Q1/2018</h3>
-              <h3 class="timeline-title">Tomoapp update & wallet</h3>
-            </div>
-            <div class="timeline-body">
-              <p>• Personalization of home feed with AI</p>
-              <p>• Upgrade video editor</p>
-              <p>• Wallet version 1</p>
-              <p>• APIs available for 3th parties</p>
-            </div>
-          </div>
-        </li>
-        <li class="fadeIn wow">
-          <div class="timeline-badge"></div>
-          <div class="timeline-panel">
-            <div class="timeline-heading">
-              <h3 class="timeline-title">Q2/2018</h3>
-              <h3 class="timeline-title">Coin integration</h3>
-            </div>
-            <div class="timeline-body">
-              <p>• Tomocoin integration</p>
-              <p>• Reward engine integration</p>
-              <p>• Ask question via coin</p>
-              <p>• Boost content</p>
-            </div>
-          </div>
-        </li>
-        <li class="timeline-inverted fadeIn wow">
-          <div class="timeline-badge"></div>
-          <div class="timeline-panel">
-            <div class="timeline-heading">
-              <h3 class="timeline-title">Q3/2018</h3>
-              <h3 class="timeline-title">Live stream & Debit card</h3>
-            </div>
-            <div class="timeline-body">
-              <p>• Live streaming capability</p>
-              <p>• Monetization of personal channel</p>
-              <p>• Upgrade APIs for 3th party bots and app</p>
-              <p>• Tomo Debit card</p>
-            </div>
-          </div>
-        </li>
-        <li class="fadeIn wow">
-          <div class="timeline-badge"></div>
-          <div class="timeline-panel">
-            <div class="timeline-heading">
-              <h3 class="timeline-title">Q4/2018</h3>
-              <h3 class="timeline-title">Tomochain & Upgraded Wallet</h3>
-            </div>
-            <div class="timeline-body">
-              <p>• Tomochain design specification</p>
-              <p>• Smart contract templates</p>
-              <p>• Decentralized exchange integration</p>
-              <p>• Token management</p>
-            </div>
-          </div>
-        </li>
-        <li class="timeline-end fadeIn wow">
-          <div class="timeline-badge"></div>
-          <div class="timeline-panel">
-            <div class="timeline-heading">
-              <h3 class="timeline-title">Future</h3>
-              <h3 class="timeline-title">Make Tomocoin more value</h3>
-            </div>
-            <div class="timeline-body">
-              <p>• Build community</p>
-              <p>• New products</p>
-              <p>• ICO platform</p>
-              <p>• Autonomous decentralized governance</p>
-            </div>
-          </div>
-        </li>
-      </ul>
-    </div>
-  </section>
-
-  <section id="news">
-    <div class="container">
-      <h1 class="text-center mb60 mt45 fadeInDown wow">News<span class="blue-color">.</span></h1>
-      <div>
-        <a href="https://medium.com/tomocoin/the-missing-roles-in-social-network-e17f7be46d60" target="_blank">
-          <img src="img/logo-medium.png" class="flipInX wow" data-wow-delay="0.5s">
-        </a>
-        <a href="https://thenextweb.com/contributors/2017/08/21/blockchain-can-make-social-networks-private-profitable/#.tnw_ASnqGiyC" target="_blank">
-          <img src="img/logo-tnw.png" class="flipInX wow" data-wow-delay="1s">
-        </a>
-        <a href="https://hackernoon.com/a-vision-of-the-internet-of-value-ad187abf5826" target="_blank">
-          <img src="img/logo-hackernoon.png" class="flipInX wow" data-wow-delay="1.5s">
-        </a>
-        <a href="https://www.wired.com/story/the-social-network-doling-out-millions-in-ephemeral-money/?mbid=social_fb_onsiteshare" target="_blank">
-          <img src="img/logo-wired.png" class="flipInX wow" data-wow-delay="2s">
-        </a>
-      </div>
-    </div>
-  </section>
-
-  <section id="team">
-    <div class="container">
-      <h1 class="text-center mb35 mt95 fadeInDown wow">Our Team<span class="blue-color">.</span></h1>
-      <div class="row">
-        <div class="col-sm-4 member-item">
-          <div class="avatar zoomIn wow" data-wow-delay="0.5s">
-            <img src="img/team/1.jpg">
-            <div class="description">
-              CEO and founder of Tomoapp, co-founder of NEM blockchain, PhD in economics, crypto-economics researcher.
-            </div>
-          </div>
-          <div class="name fadeIn wow" data-wow-delay="0.7s">
-            Long Vuong
-          </div>
-          <div class="title fadeIn wow" data-wow-delay="1s">
-            Founder & Project Lead
-          </div>
-          <div class="link-profile">
-            <a href="https://www.facebook.com/longvuong22" target="_blank"
-              style="background-image: url(img/fb-sm-bi.png);" class="zoomIn wow" data-wow-delay="1.2s">
-              <img src="img/fb-sm-i.png"/>
-            </a>
-            <a href="https://twitter.com/longvuong22" target="_blank"
-              style="background-image: url(img/tw-sm-bi.png);" class="zoomIn wow" data-wow-delay="1.6s">
-              <img src="img/tw-sm-i.png"/>
-            </a>
-            <a href="https://www.linkedin.com/in/longvuong22" target="_blank"
-              style="background-image: url(img/in-sm-bi.png);" class="zoomIn wow" data-wow-delay="2s">
-              <img src="img/in-sm-i.png"/>
-            </a>
-          </div>
-        </div>
-        <div class="col-sm-4 member-item">
-          <div class="avatar zoomIn wow" data-wow-delay="1.5s">
-            <img src="img/team/2.jpg" alt="">
-            <div class="description">
-              Engineering Director of Tomoapp. Seasoned technical leader. Dev-Ops and microservice architecture expert.
-            </div>
-          </div>
-          <div class="name fadeIn wow" data-wow-delay="1.7s">
-            Son Nguyen
-          </div>
-          <div class="title fadeIn wow" data-wow-delay="2s">
-            CTO
-          </div>
-          <div class="link-profile">
-            <a href="https://www.linkedin.com/in/thanhson1085" target="_blank"
-              style="background-image: url(img/in-sm-bi.png);" class="zoomIn wow" data-wow-delay="2.2s">
-              <img src="img/in-sm-i.png" />
-            </a>
-            <a href="https://github.com/thanhson1085" target="_blank"
-              style="background-image: url(img/git-sm-bi.png);" class="zoomIn wow" data-wow-delay="2.6s">
-              <img src="img/git-sm-i.png" />
-            </a>
-          </div>
-        </div>
-        <div class="col-sm-4 member-item">
-          <div class="avatar zoomIn wow" data-wow-delay="2.5s">
-            <img src="img/team/3.jpg" alt="">
-            <div class="description">
-              Cloud Chief Architect of VCCloud - one of biggest local cloud-provider in South East Asia. Technology and security advisor.
-            </div>
-          </div>
-          <div class="name fadeIn wow" data-wow-delay="2.7s">
-            Minh Chu
-          </div>
-          <div class="title fadeIn wow" data-wow-delay="3s">
-            Blockchain and Cloud Lead
-          </div>
-          <div class="link-profile">
-            <a href="https://www.linkedin.com/in/chu-duc-minh-1773a229/" target="_blank"
-              style="background-image: url(img/in-sm-bi.png);" class="zoomIn wow" data-wow-delay="3.2s">
-              <img src="img/in-sm-i.png" />
-            </a>
-            <a href="https://github.com/minhchuduc" target="_blank"
-              style="background-image: url(img/git-sm-bi.png);" class="zoomIn wow" data-wow-delay="3.6s">
-              <img src="img/git-sm-i.png" />
-            </a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section id="advisor">
-    <div class="container">
-      <h1 class="text-center mb35 mt70 fadeInDown wow">Advisors<span class="blue-color">.</span></h1>
-      <div class="row">
-        <div class="col-sm-6 member-item">
-          <div class="avatar not-hover zoomIn wow">
-            <img src="img/demo/1.png" alt="">
-          </div>
-          <div class="name mt25 fadeIn wow">
-            Min Kim
-          </div>
-          <div class="description mt20 fadeIn wow">
-            Founder of Blocultural Studios. Chief of staff of Civic, previously worked with Tim Draper on PR and marketing on blockchain initiatives.
-          </div>
-        </div>
-        <div class="col-sm-6 member-item">
-          <div class="avatar not-hover zoomIn wow">
-            <img src="img/demo/2.png" alt="">
-          </div>
-          <div class="name mt25 fadeIn wow">
-            Androklis Polymenis
-          </div>
-          <div class="description mt20 fadeIn wow">
-            Co-founder of CryptXO group, a cryptocurrency veteran involved in cryptocurrency since 2012.
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section id="contacts" class="pb70">
-    <div class="container">
-      <h1 class="text-center mb50 fadeInDown wow">
-        Contact with us<span class="blue-color">.</span>
-      </h1>
-      <div class="row">
-        <div class="col-sm-2 col-xs-4 text-center">
-          <a href="https://t.me/joinchat/G6zSmBMSgUnc5Z86Qmwsmw" target="_blank">
-            <img src="img/telegram-icon.png" class="mb20 fadeInUp wow" data-wow-delay="0.5s">
+        <div class="text-center mt60">
+          <a class="btn btn-white">
+            Notify me when availabel
           </a>
-        </div>
-        <div class="col-sm-2 col-xs-4 text-center">
-          <a href="https://join.slack.com/t/tomocoin/shared_invite/enQtMjc4Mjk2ODk5MTg2LTg3NDk5ZjcxNTIxMWEwZDdkYTZhNjIwNWFmMDQxYjQ3NDQyM2MyZjBmNDAxY2FmNzAwYzc3NzEzODQ1ZDg1Y2I" target="_blank">
-            <img src="img/slack-icon.png" class="mb20 fadeInUp wow" data-wow-delay="0.8s">
-          </a>
-        </div>
-        <div class="col-sm-2 col-xs-4 text-center">
-          <a href="https://twitter.com/TomoCoin_io" target="_blank">
-            <img src="img/twitter-icon.png" class="mb20 fadeInUp wow" data-wow-delay="1.1s">
-          </a>
-        </div>
-        <div class="col-sm-2 col-xs-4 text-center">
-          <a href="https://www.facebook.com/tomocoin" target="_blank">
-            <img src="img/facebook-icon.png" class="mb20 fadeInUp wow" data-wow-delay="1.4s">
-          </a>
-        </div>
-        <div class="col-sm-2 col-xs-4 text-center">
-          <a href="https://medium.com/tomocoin" target="_blank">
-            <img src="img/medium-icon.png" class="mb20 fadeInUp wow" data-wow-delay="1.7s">
-          </a>
-        </div>
-        <div class="col-sm-2 col-xs-4 text-center">
-          <a href="https://bitcointalk.org/index.php?topic=2021785.0" target="_blank">
-            <img src="img/bitcoin-icon.png" class="mb20 fadeInUp wow" data-wow-delay="2s">
-          </a>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <footer class="mt50">
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-4">
-          <h2>Tomochain Pte. Ltd.</h2>
-          <div class="mt20 fs16">
-            Singapore Headquarters <br/>
-            10 Anson Road #22-15 <br/>
-            International Plaza <br/>
-            Singapore 07990
-          </div>
-        </div>
-        <div class="col-sm-8">
-          <h2 class="text-left-desktop text-center mb70">Subscribe to our email list to receive news and updates.</h2>
-          <div id="mailing-list2">
-            <div class="row email-form">
-              <div class="col-sm-8 mb10">
-                <input type="email" class="input-email" placeholder="Enter your email address" onkeypress="keyPressEmail(event, '#mailing-list2')"/>
-              </div>
-              <div class="col-sm-4 text-left-desktop text-center">
-                <button class="btn-email-submit mw100 w150px" onclick="submitEmail('#mailing-list2')">Submit</button>
-              </div>
+        </div> -->
+        <h1 class="tagline fadeIn wow" data-wow-delay="0.6s">Reimagining Social Network with Cryptocurrency</h1>
+        <h2 class="mt60 mb50 fadeInUp wow" data-wow-delay="1s">Don't keep your money safe. Let them grow with our project.</h2>
+        <div id="mailing-list" class="fadeInUp wow" data-wow-delay="1.5s">
+          <div class="row email-form">
+            <div class="col-sm-6 col-sm-offset-2 mb10">
+              <input type="email" class="input-email" placeholder="Enter your email address" onkeypress="keyPressEmail(event, '#mailing-list')"/>
             </div>
-            <div class="row">
-              <div class="col-sm-12">
-                <div class="alert-error text-center" style="display: none;">Error, Please try again.</div>
-                <div class="alert-success text-center" style="display: none;">
-                  <div class="mb10" style="font-weight: bold">Thank you. Please check your inbox for an email verification.</div>
-                  <div class="row">
-                    <div class="col-sm-6 text-right-desktop">
-                      <a href="https://t.me/tomocoin" target="_blank">
-                        <img src="img/telegram-icon.png" height="20px">
-                        &nbsp;<span class="black-color">Join Telegram</span>
-                      </a>
-                    </div>
+            <div class="col-sm-2 text-left-desktop text-center">
+              <button class="btn-email-submit w100" onclick="submitEmail('#mailing-list')">Submit</button>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-8 col-sm-offset-2">
+              <div class="alert-error text-center" style="display: none;">Error, Please try again.</div>
+              <div class="alert-success text-center" style="display: none;">
+                <div class="mb10" style="font-weight: bold">Thank you. Please check your inbox for an email verification.</div>
+                <div class="row">
+                  <div class="col-sm-6 text-right-desktop">
+                    <a href="https://t.me/tomocoin" target="_blank">
+                      <img src="img/telegram-icon.png" height="20px">
+                      &nbsp;<span class="black-color">Join Telegram</span>
+                    </a>
+                  </div>
 
-                    <div class="col-sm-6 text-left-desktop">
-                      <a href="https://join.slack.com/t/tomocoin/shared_invite/enQtMjc4Mjk2ODk5MTg2LTg3NDk5ZjcxNTIxMWEwZDdkYTZhNjIwNWFmMDQxYjQ3NDQyM2MyZjBmNDAxY2FmNzAwYzc3NzEzODQ1ZDg1Y2I" target="_blank">
-                        <img src="img/slack-icon.png" height="20px">
-                        &nbsp;<span class="black-color">Join our Slack</span>
-                      </a>
-                    </div>
+                  <div class="col-sm-6 text-left-desktop">
+                    <a href="https://join.slack.com/t/tomocoin/shared_invite/enQtMjc4Mjk2ODk5MTg2LTg3NDk5ZjcxNTIxMWEwZDdkYTZhNjIwNWFmMDQxYjQ3NDQyM2MyZjBmNDAxY2FmNzAwYzc3NzEzODQ1ZDg1Y2I" target="_blank">
+                      <img src="img/slack-icon.png" height="20px">
+                      &nbsp;<span class="black-color">Join our Slack</span>
+                    </a>
                   </div>
                 </div>
               </div>
@@ -775,10 +181,613 @@
           </div>
         </div>
       </div>
-      <div class="line"></div>
-      <div class="copyright">2017 Copyright by Tomo</div>
-    </div>
-  </footer>
+    </header>
+
+    <section id="intro">
+      <div class="container">
+        <h1 class="text-center fadeIn wow">Intro Tomocoin<span class="blue-color">.</span></h1>
+        <div class="row mt35">
+          <div class="col-sm-8 col-sm-offset-2">
+            <div class="text-center text-black zoomIn wow">
+                We are building a new social network from ground up with a built-in cryptocurrency. Our goal is to make Tomo Network the host of multiple successful decentralized applications, and Tomocoin one of the most valuable and important digital assets for millions of people.
+                Our vision is our project is worth billions next five years.
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="videos-slider mt35">
+        <div class="container">
+          <img class="thumb zoomIn wow" data-wow-delay="0.5s" src="img/videos/2.jpg" width="940px" />
+          <img id="video1" video-url="https://www.youtube.com/watch?v=CaVHM7ZoYlI" class="play-icon fadeIn wow" data-wow-delay="1s" src="img/play-icon.png" />
+        </div>
+        <div class="container">
+          <img class="thumb zoomIn wow" data-wow-delay="0.5s" src="img/videos/1.jpg" width="940px"  />
+          <img id="video2" video-url="https://www.youtube.com/watch?v=okTcuq9VsAA" class="play-icon fadeIn wow" data-wow-delay="1s" src="img/play-icon.png" />
+        </div>
+        <div class="container">
+          <img class="thumb zoomIn wow" data-wow-delay="0.5s" src="img/videos/3.jpg" width="940px"  />
+          <img id="video3" video-url="https://www.youtube.com/watch?v=FtZPhMRqdLo" class="play-icon fadeIn wow" data-wow-delay="1s" src="img/play-icon.png" />
+        </div>
+      </div>
+      <div class="text-center" style="margin-top: 135px">
+        <a class="btn btn-blue fadeInDown wow">
+          Download White paper
+        </a>
+      </div>
+    </section>
+
+    <section id="why">
+      <div class="container">
+        <h1 class="text-center white-color fadeInDown wow mt50">Why TOMOCOIN.</h1>
+        <div class="row mt35">
+          <div class="col-sm-6 text-white text-justify zoomIn wow" data-wow-delay="0.3s">
+              <strong>BUILT-IN MICRO PAYMENT</strong> with a store of value characteristics: unique architecture allowing for an easy monetization with micropayment in publishing, gaming, crowdfunding etc. but also a secure store of value of coin on a public blockchain.
+          </div>
+          <div class="visible-xs mt30"></div>
+          <div class="col-sm-6 text-white text-justify zoomIn wow" data-wow-delay="0.8s">
+              <strong>CONTENT CONTRIBUTOR'S NETWORK:</strong> The network is created by and for contributors. Help solving other's problems; create and publish useful contents and receive rewards from the network.
+          </div>
+        </div>
+        <div class="row mt30">
+            <div class="col-sm-6 text-white text-justify zoomIn wow" data-wow-delay="1.3s">
+                <strong>USER PRIVACY:</strong> No tracking, no data mining and surveillance; allowing for anonymous identity and content creation.
+            </div>
+            <div class="visible-xs mt30"></div>
+            <div class="col-sm-6 text-white text-justify zoomIn wow" data-wow-delay="1.8s">
+                <strong>FIRST RATE USABILITY</strong> using technology such as mobile first, AI, AR, location and camera based services.
+            </div>
+          </div>
+      </div>
+    </section>
+
+    <section id="application">
+      <div class="container">
+        <h1 class="text-center fadeInDown wow mt70">Application<span class="blue-color">.</span></h1>
+        <div class="row mt35 mb50">
+          <div class="col-sm-8 col-sm-offset-2">
+            <div class="text-center text-black zoomIn wow" data-wow-delay="0.5s">
+              Our mission is to be a leading force in building the Internet of Value, designing its infrastructures and working toward a reality that will make knowledge, decentralization, financial independence, and opportunities accessible to everyone, everywhere.
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-sm-12">
+            <h2 class="text-right-desktop fadeInRight wow">
+              Tomo video-sharing application
+            </h2>
+          </div>
+          <div class="col-sm-6 text-center">
+            <img src="img/tomoapp-demo.png" class="w100 fadeInLeft wow" data-wow-delay="0.5s">
+          </div>
+          <div class="col-sm-6">
+            <div class="text-right-desktop mt15 text-black fadeInRight wow" data-wow-delay="0.5s">
+              This Tomo application will be the flagship consumer application within the Tomo network. The beta version is now available at tomoapp.com, and free download at the Apple App Store and Google Play Store.
+            </div>
+            <div class="text-center text-right-desktop mt25" style="display: flex; justify-content: space-between;">
+              <a href="https://tomoapp.com" style="margin-bottom: 10px; width: 32%; display: block;" class="fadeInUp wow" data-wow-delay="1s">
+                <img src="img/webapp.png" width="100%"/>
+              </a>
+              <a href="https://goo.gl/s3nvFs" style="margin-bottom: 10px; width: 32%; display: block;" class="fadeInUp wow" data-wow-delay="1.2s">
+                <img src="img/appstore.png" width="100%"/>
+              </a>
+              <a href="https://goo.gl/imvNHp" style="margin-bottom: 10px; width: 32%; display: block;" class="fadeInUp wow" data-wow-delay="1.4s">
+                <img src="img/googleplay.png" width="100%"/>
+              </a>
+            </div>
+            <div class="text-center mt15 fadeIn wow" data-wow-delay="2s" data-toggle="collapse" data-target="#tomo-features">
+              <button class="btn-feature">See all features</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="row mt70">
+          <div id="tomo-features" class="container collapse">
+            <div class="row text-center">
+              <div class="col-sm-4">
+                <div class="feature-item">
+                  <div class="feature-item-img"><img src="img/tomoapp/1.svg" /></div>
+                  <h4>Mobile app & webapp</h4>
+                  <div>The Tomoapp is available on both Android, iOS and browser</div>
+                </div>
+              </div>
+              <div class="col-sm-4">
+                <div class="feature-item">
+                  <div class="feature-item-img"><img src="img/tomoapp/10.svg" /></div>
+                  <h4>Peer to peer question and open question</h4>
+                  <div>Send a question to a friend or expert. Make an open question for everyone</div>
+                </div>
+              </div>
+              <div class="col-sm-4">
+                <div class="feature-item">
+                  <div class="feature-item-img"><img src="img/tomoapp/11.svg" /></div>
+                  <h4>Answer via 1 minute video or text</h4>
+                  <div>One minute video is brilliant to answer and watch. A texted answer is a plus</div>
+                </div>
+              </div>
+            </div>
+            <div class="row text-center">
+              <div class="col-sm-4">
+                <div class="feature-item">
+                  <div class="feature-item-img"><img src="img/tomoapp/9.svg" /></div>
+                  <h4>Multi language community</h4>
+                  <div>Support diverse demands</div>
+                </div>
+              </div>
+              <div class="col-sm-4">
+                <div class="feature-item">
+                  <div class="feature-item-img"><img src="img/tomoapp/3.svg" /></div>
+                  <h4>Personalization feed</h4>
+                  <div>Anything you see is the best for you</div>
+                </div>
+              </div>
+              <div class="col-sm-4">
+                <div class="feature-item">
+                  <div class="feature-item-img"><img src="img/tomoapp/5.svg" /></div>
+                  <h4>Channel</h4>
+                  <div>Create your content and spread your story. Or just be an active “lurker”/fan</div>
+                </div>
+              </div>
+            </div>
+            <div class="row text-center">
+              <div class="col-sm-4">
+                <div class="feature-item">
+                  <div class="feature-item-img"><img src="img/tomoapp/7.svg" /></div>
+                  <h4>Instant messaging</h4>
+                  <div>Communicate directly with ones you connect with</div>
+                </div>
+              </div>
+              <div class="col-sm-4">
+                <div class="feature-item">
+                  <div class="feature-item-img"><img src="img/tomoapp/8.svg" /></div>
+                  <h4>Friends and followers</h4>
+                  <div>Connect with your friends and your fans or Follow experts and stars you admire</div>
+                </div>
+              </div>
+              <div class="col-sm-4">
+                <div class="feature-item">
+                  <div class="feature-item-img"><img src="img/tomoapp/2.svg" /></div>
+                  <h4>Comment and mention</h4>
+                  <div>Join discussion, comment (non-)anonymously/ and mention someone also interested in</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row mt65 wallet">
+          <div class="col-sm-12">
+            <h2 class="fadeInLeft wow">
+              Wallet
+            </h2>
+          </div>
+          <div>
+            <div class="col-sm-6">
+              <div class="mt15 text-justify text-black fadeInLeft wow" data-wow-delay="1s">
+                A secure and user-friendly coin wallet that gives financial control back
+                to the end-users is one of the most important parts of the infrastructure
+                of the “Internet of Value”. It will bridge the gap between a cryptocurrency
+                enthusiast and a mainstream user – and possibly increase the adoption rate of
+                cryptocurrency by 10-fold if done right. We want to invest in building such a
+                wallet, firstly to host Tomocoin and Ethereum and later multiple other
+                cryptographic tokens and currencies.
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="row zoomIn wow mt35" data-wow-delay="1s">
+                <div class="col-xs-3 text-right">
+                  <img src="img/wallet/icon1.svg" class="w40px">
+                </div>
+                <div class="col-xs-9">
+                  <span class="text-black lh23 fs18">
+                    To safely store Tomocoin, Ethereum, and other coins and tokens
+                  </span>
+                </div>
+              </div>
+
+              <div class="row mt50 zoomIn wow" data-wow-delay="1.5s">
+                <div class="col-xs-3 text-right">
+                  <img src="img/wallet/icon2.svg" class="w40px">
+                </div>
+                <div class="col-xs-9">
+                  <span class="text-black lh23 fs18">
+                    A Tomo debit card will be linked with Tomo wallet for payments in physical locations
+                  </span>
+                </div>
+              </div>
+
+              <div class="row mt50 zoomIn wow" data-wow-delay="2s">
+                <div class="col-xs-3 text-right">
+                  <img src="img/wallet/icon3.svg" class="w40px">
+                </div>
+                <div class="col-xs-9">
+                  <span class="text-black lh23 fs18">
+                    Users will be able to safely send Tomocoin to friends and contacts
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row mt70">
+          <div class="col-sm-12">
+            <h2 class="text-right-desktop fadeInRight wow">
+              Debit Card
+            </h2>
+          </div>
+          <div class="col-sm-6 text-center">
+            <img src="img/debitcard-demo.png" class="w100 fadeInLeft wow" data-wow-delay="1s" style="margin-left: -40px">
+          </div>
+          <div class="col-sm-6">
+            <div class="text-right-desktop mt10 text-black fadeInRight wow" data-wow-delay="0.5s">
+              Connect your Tomo account wallet to your Tomo debit
+              card to spend your coins as fiat currency anywhere in the world.
+              Fees will be minimal and as the card uses Visa infrastructure
+              you can use it almost anywhere in the world.
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="roadmap">
+      <div class="container">
+        <h1 class="white-color text-center mb50 mt75 fadeInDown wow">Roadmap.</h1>
+        <ul class="timeline">
+          <li class="fadeIn wow">
+            <div class="timeline-badge"></div>
+            <div class="timeline-panel">
+              <div class="timeline-heading">
+                <h3 class="timeline-title">Q2/2017</h3>
+                <h3 class="timeline-title">Alpha launch</h3>
+              </div>
+              <div class="timeline-body">
+                <p>• Android/iOS app</p>
+                <p>• Peer to peer Question and answer</p>
+                <p>• Answer via Video in 1 minute</p>
+                <p>• Open question space</p>
+              </div>
+            </div>
+          </li>
+          <li class="timeline-inverted fadeIn wow">
+            <div class="timeline-badge"></div>
+            <div class="timeline-panel">
+              <div class="timeline-heading">
+                <h3 class="timeline-title">Q3/2017</h3>
+                <h3 class="timeline-title">Beta launch</h3>
+              </div>
+              <div class="timeline-body">
+                <p>• Multiple language communities</p>
+                <p>• Answer in text</p>
+                <p>• Notification system</p>
+                <p>• Anonymous questions, comments</p>
+              </div>
+            </div>
+          </li>
+          <li class="fadeIn wow">
+            <div class="timeline-badge"></div>
+            <div class="timeline-panel">
+              <div class="timeline-heading">
+                <h3 class="timeline-title">Q4/2017</h3>
+                <h3 class="timeline-title">Tomoapp update</h3>
+                <h4 class="timeline-title" style="color: #50e3c2">(We are here)</h4>
+              </div>
+              <div class="timeline-body">
+                <p>• Topics and hashtags</p>
+                <p>• AMA System - Ask me anything</p>
+                <p>• Private messages</p>
+                <p>• New search engine and AI design</p>
+              </div>
+            </div>
+          </li>
+          <li class="timeline-inverted fadeIn wow">
+            <div class="timeline-badge"></div>
+            <div class="timeline-panel">
+              <div class="timeline-heading">
+                <h3 class="timeline-title">Q1/2018</h3>
+                <h3 class="timeline-title">Tomoapp update & wallet</h3>
+              </div>
+              <div class="timeline-body">
+                <p>• Personalization of home feed with AI</p>
+                <p>• Upgrade video editor</p>
+                <p>• Wallet version 1</p>
+                <p>• APIs available for 3th parties</p>
+              </div>
+            </div>
+          </li>
+          <li class="fadeIn wow">
+            <div class="timeline-badge"></div>
+            <div class="timeline-panel">
+              <div class="timeline-heading">
+                <h3 class="timeline-title">Q2/2018</h3>
+                <h3 class="timeline-title">Coin integration</h3>
+              </div>
+              <div class="timeline-body">
+                <p>• Tomocoin integration</p>
+                <p>• Reward engine integration</p>
+                <p>• Ask question via coin</p>
+                <p>• Boost content</p>
+              </div>
+            </div>
+          </li>
+          <li class="timeline-inverted fadeIn wow">
+            <div class="timeline-badge"></div>
+            <div class="timeline-panel">
+              <div class="timeline-heading">
+                <h3 class="timeline-title">Q3/2018</h3>
+                <h3 class="timeline-title">Live stream & Debit card</h3>
+              </div>
+              <div class="timeline-body">
+                <p>• Live streaming capability</p>
+                <p>• Monetization of personal channel</p>
+                <p>• Upgrade APIs for 3th party bots and app</p>
+                <p>• Tomo Debit card</p>
+              </div>
+            </div>
+          </li>
+          <li class="fadeIn wow">
+            <div class="timeline-badge"></div>
+            <div class="timeline-panel">
+              <div class="timeline-heading">
+                <h3 class="timeline-title">Q4/2018</h3>
+                <h3 class="timeline-title">Tomochain & Upgraded Wallet</h3>
+              </div>
+              <div class="timeline-body">
+                <p>• Tomochain design specification</p>
+                <p>• Smart contract templates</p>
+                <p>• Decentralized exchange integration</p>
+                <p>• Token management</p>
+              </div>
+            </div>
+          </li>
+          <li class="timeline-end fadeIn wow">
+            <div class="timeline-badge"></div>
+            <div class="timeline-panel">
+              <div class="timeline-heading">
+                <h3 class="timeline-title">Future</h3>
+                <h3 class="timeline-title">Make Tomocoin more value</h3>
+              </div>
+              <div class="timeline-body">
+                <p>• Build community</p>
+                <p>• New products</p>
+                <p>• ICO platform</p>
+                <p>• Autonomous decentralized governance</p>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="news">
+      <div class="container">
+        <h1 class="text-center mb60 mt45 fadeInDown wow">News<span class="blue-color">.</span></h1>
+        <div>
+          <a href="https://medium.com/tomocoin/the-missing-roles-in-social-network-e17f7be46d60" target="_blank">
+            <img src="img/logo-medium.png" class="flipInX wow" data-wow-delay="0.5s">
+          </a>
+          <a href="https://thenextweb.com/contributors/2017/08/21/blockchain-can-make-social-networks-private-profitable/#.tnw_ASnqGiyC" target="_blank">
+            <img src="img/logo-tnw.png" class="flipInX wow" data-wow-delay="1s">
+          </a>
+          <a href="https://hackernoon.com/a-vision-of-the-internet-of-value-ad187abf5826" target="_blank">
+            <img src="img/logo-hackernoon.png" class="flipInX wow" data-wow-delay="1.5s">
+          </a>
+          <a href="https://www.wired.com/story/the-social-network-doling-out-millions-in-ephemeral-money/?mbid=social_fb_onsiteshare" target="_blank">
+            <img src="img/logo-wired.png" class="flipInX wow" data-wow-delay="2s">
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section id="team">
+      <div class="container">
+        <h1 class="text-center mb35 mt95 fadeInDown wow">Our Team<span class="blue-color">.</span></h1>
+        <div class="row">
+          <div class="col-sm-4 member-item">
+            <div class="avatar zoomIn wow" data-wow-delay="0.5s">
+              <img src="img/team/1.jpg">
+              <div class="description">
+                CEO and founder of Tomoapp, co-founder of NEM blockchain, PhD in economics, crypto-economics researcher.
+              </div>
+            </div>
+            <div class="name fadeIn wow" data-wow-delay="0.7s">
+              Long Vuong
+            </div>
+            <div class="title fadeIn wow" data-wow-delay="1s">
+              Founder & Project Lead
+            </div>
+            <div class="link-profile">
+              <a href="https://www.facebook.com/longvuong22" target="_blank"
+                style="background-image: url(img/fb-sm-bi.png);" class="zoomIn wow" data-wow-delay="1.2s">
+                <img src="img/fb-sm-i.png"/>
+              </a>
+              <a href="https://twitter.com/longvuong22" target="_blank"
+                style="background-image: url(img/tw-sm-bi.png);" class="zoomIn wow" data-wow-delay="1.6s">
+                <img src="img/tw-sm-i.png"/>
+              </a>
+              <a href="https://www.linkedin.com/in/longvuong22" target="_blank"
+                style="background-image: url(img/in-sm-bi.png);" class="zoomIn wow" data-wow-delay="2s">
+                <img src="img/in-sm-i.png"/>
+              </a>
+            </div>
+          </div>
+          <div class="col-sm-4 member-item">
+            <div class="avatar zoomIn wow" data-wow-delay="1.5s">
+              <img src="img/team/2.jpg" alt="">
+              <div class="description">
+                Engineering Director of Tomoapp. Seasoned technical leader. Dev-Ops and microservice architecture expert.
+              </div>
+            </div>
+            <div class="name fadeIn wow" data-wow-delay="1.7s">
+              Son Nguyen
+            </div>
+            <div class="title fadeIn wow" data-wow-delay="2s">
+              CTO
+            </div>
+            <div class="link-profile">
+              <a href="https://www.linkedin.com/in/thanhson1085" target="_blank"
+                style="background-image: url(img/in-sm-bi.png);" class="zoomIn wow" data-wow-delay="2.2s">
+                <img src="img/in-sm-i.png" />
+              </a>
+              <a href="https://github.com/thanhson1085" target="_blank"
+                style="background-image: url(img/git-sm-bi.png);" class="zoomIn wow" data-wow-delay="2.6s">
+                <img src="img/git-sm-i.png" />
+              </a>
+            </div>
+          </div>
+          <div class="col-sm-4 member-item">
+            <div class="avatar zoomIn wow" data-wow-delay="2.5s">
+              <img src="img/team/3.jpg" alt="">
+              <div class="description">
+                Cloud Chief Architect of VCCloud - one of biggest local cloud-provider in South East Asia. Technology and security advisor.
+              </div>
+            </div>
+            <div class="name fadeIn wow" data-wow-delay="2.7s">
+              Minh Chu
+            </div>
+            <div class="title fadeIn wow" data-wow-delay="3s">
+              Blockchain and Cloud Lead
+            </div>
+            <div class="link-profile">
+              <a href="https://www.linkedin.com/in/chu-duc-minh-1773a229/" target="_blank"
+                style="background-image: url(img/in-sm-bi.png);" class="zoomIn wow" data-wow-delay="3.2s">
+                <img src="img/in-sm-i.png" />
+              </a>
+              <a href="https://github.com/minhchuduc" target="_blank"
+                style="background-image: url(img/git-sm-bi.png);" class="zoomIn wow" data-wow-delay="3.6s">
+                <img src="img/git-sm-i.png" />
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="advisor">
+      <div class="container">
+        <h1 class="text-center mb35 mt70 fadeInDown wow">Advisors<span class="blue-color">.</span></h1>
+        <div class="row">
+          <div class="col-sm-6 member-item">
+            <div class="avatar not-hover zoomIn wow">
+              <img src="img/demo/1.png" alt="">
+            </div>
+            <div class="name mt25 fadeIn wow">
+              Min Kim
+            </div>
+            <div class="description mt20 fadeIn wow">
+              Founder of Blocultural Studios. Chief of staff of Civic, previously worked with Tim Draper on PR and marketing on blockchain initiatives.
+            </div>
+          </div>
+          <div class="col-sm-6 member-item">
+            <div class="avatar not-hover zoomIn wow">
+              <img src="img/demo/2.png" alt="">
+            </div>
+            <div class="name mt25 fadeIn wow">
+              Androklis Polymenis
+            </div>
+            <div class="description mt20 fadeIn wow">
+              Co-founder of CryptXO group, a cryptocurrency veteran involved in cryptocurrency since 2012.
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contacts" class="pb70">
+      <div class="container">
+        <h1 class="text-center mb50 fadeInDown wow">
+          Contact with us<span class="blue-color">.</span>
+        </h1>
+        <div class="row">
+          <div class="col-sm-2 col-xs-4 text-center">
+            <a href="https://t.me/joinchat/G6zSmBMSgUnc5Z86Qmwsmw" target="_blank">
+              <img src="img/telegram-icon.png" class="mb20 fadeInUp wow" data-wow-delay="0.5s">
+            </a>
+          </div>
+          <div class="col-sm-2 col-xs-4 text-center">
+            <a href="https://join.slack.com/t/tomocoin/shared_invite/enQtMjc4Mjk2ODk5MTg2LTg3NDk5ZjcxNTIxMWEwZDdkYTZhNjIwNWFmMDQxYjQ3NDQyM2MyZjBmNDAxY2FmNzAwYzc3NzEzODQ1ZDg1Y2I" target="_blank">
+              <img src="img/slack-icon.png" class="mb20 fadeInUp wow" data-wow-delay="0.8s">
+            </a>
+          </div>
+          <div class="col-sm-2 col-xs-4 text-center">
+            <a href="https://twitter.com/TomoCoin_io" target="_blank">
+              <img src="img/twitter-icon.png" class="mb20 fadeInUp wow" data-wow-delay="1.1s">
+            </a>
+          </div>
+          <div class="col-sm-2 col-xs-4 text-center">
+            <a href="https://www.facebook.com/tomocoin" target="_blank">
+              <img src="img/facebook-icon.png" class="mb20 fadeInUp wow" data-wow-delay="1.4s">
+            </a>
+          </div>
+          <div class="col-sm-2 col-xs-4 text-center">
+            <a href="https://medium.com/tomocoin" target="_blank">
+              <img src="img/medium-icon.png" class="mb20 fadeInUp wow" data-wow-delay="1.7s">
+            </a>
+          </div>
+          <div class="col-sm-2 col-xs-4 text-center">
+            <a href="https://bitcointalk.org/index.php?topic=2021785.0" target="_blank">
+              <img src="img/bitcoin-icon.png" class="mb20 fadeInUp wow" data-wow-delay="2s">
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="mt50">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-4">
+            <h2>Tomochain Pte. Ltd.</h2>
+            <div class="mt20 fs16">
+              Singapore Headquarters <br/>
+              10 Anson Road #22-15 <br/>
+              International Plaza <br/>
+              Singapore 07990
+            </div>
+          </div>
+          <div class="col-sm-8">
+            <h2 class="text-left-desktop text-center mb70">Subscribe to our email list to receive news and updates.</h2>
+            <div id="mailing-list2">
+              <div class="row email-form">
+                <div class="col-sm-8 mb10">
+                  <input type="email" class="input-email" placeholder="Enter your email address" onkeypress="keyPressEmail(event, '#mailing-list2')"/>
+                </div>
+                <div class="col-sm-4 text-left-desktop text-center">
+                  <button class="btn-email-submit mw100 w150px" onclick="submitEmail('#mailing-list2')">Submit</button>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-sm-12">
+                  <div class="alert-error text-center" style="display: none;">Error, Please try again.</div>
+                  <div class="alert-success text-center" style="display: none;">
+                    <div class="mb10" style="font-weight: bold">Thank you. Please check your inbox for an email verification.</div>
+                    <div class="row">
+                      <div class="col-sm-6 text-right-desktop">
+                        <a href="https://t.me/tomocoin" target="_blank">
+                          <img src="img/telegram-icon.png" height="20px">
+                          &nbsp;<span class="black-color">Join Telegram</span>
+                        </a>
+                      </div>
+
+                      <div class="col-sm-6 text-left-desktop">
+                        <a href="https://join.slack.com/t/tomocoin/shared_invite/enQtMjc4Mjk2ODk5MTg2LTg3NDk5ZjcxNTIxMWEwZDdkYTZhNjIwNWFmMDQxYjQ3NDQyM2MyZjBmNDAxY2FmNzAwYzc3NzEzODQ1ZDg1Y2I" target="_blank">
+                          <img src="img/slack-icon.png" height="20px">
+                          &nbsp;<span class="black-color">Join our Slack</span>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="line"></div>
+        <div class="copyright">2017 Copyright by Tomo</div>
+      </div>
+    </footer>
+  </div>
 
   <!--SCRIPTS-->
   <script src="js/production.min.js"></script>
