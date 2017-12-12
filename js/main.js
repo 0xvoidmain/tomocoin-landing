@@ -108,7 +108,7 @@ $(document).ready(function () {
     console.log('load');
     setTimeout(function() {
       setup();
-    }, 100);
+    }, 500);
     clearTimeout(idTimeOut);
   });
 });
