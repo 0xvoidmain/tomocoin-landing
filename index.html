@@ -19,7 +19,13 @@
   <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.7.1/slick/slick-theme.css"/>
 
   <!--STYLES-->
-  <link rel="stylesheet" href="styles/production.min.css">
+  <link rel="stylesheet" href="styles/lib/animate.css">
+  <link rel="stylesheet" href="styles/lib/bootstrap.min.css">
+  <link rel="stylesheet" href="styles/lib/font-awesome.min.css">
+  <link rel="stylesheet" href="styles/lib/loading.css">
+  <link rel="stylesheet" href="styles/lib/slideshow.css">
+  <link rel="stylesheet" href="styles/lib/video.popup.css">
+  <link rel="stylesheet" href="styles/importer.css">
   <!--STYLES END-->
 
   <!-- Hotjar Tracking Code for https://tomocoin.io -->
@@ -131,6 +137,9 @@
     </div>
 
     <header id="header">
+      <div class="video-container">
+        <video src="https://www.tenx.tech/video/matrix.mp4" autoplay loop muted></video>
+      </div>
       <div class="container">
         <!-- <h1>
             Don't keep your money safe.<br/>
@@ -793,7 +802,15 @@
   </div>
 
   <!--SCRIPTS-->
-  <script src="js/production.min.js"></script>
+  <script src="js/dependencies/jquery-1.11.0.min.js"></script>
+  <script src="js/dependencies/bootstrap.min.js"></script>
+  <script src="js/dependencies/constellation.js"></script>
+  <script src="js/dependencies/modernizr-2.7.1.js"></script>
+  <script src="js/dependencies/slick.min.js"></script>
+  <script src="js/dependencies/video.popup.js"></script>
+  <script src="js/dependencies/waiteForImage.min.js"></script>
+  <script src="js/dependencies/wow.min.js"></script>
+  <script src="js/main.js"></script>
   <!--SCRIPTS END-->
   <script type="text/javascript">
     adroll_adv_id = "SNYYXEEOWBBXFIO2HEWYAF";
